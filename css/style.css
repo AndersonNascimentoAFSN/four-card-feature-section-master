@@ -210,7 +210,7 @@ body {
 
 @media screen and (max-width: 320px) {
   .header h1, .header h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .header p {
     max-width: 260px;
