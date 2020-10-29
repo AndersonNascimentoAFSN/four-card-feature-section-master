@@ -207,3 +207,22 @@ body {
     max-width: 300px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .header h1, .header h2 {
+    font-size: 1.5rem;
+  }
+  .header p {
+    max-width: 260px;
+    margin-bottom: 3.058103975535168vh;
+  }
+  .cards {
+    justify-content: center;
+    gap: 3.058103975535168vh;
+    grid-template: "supervisor" 1fr "team"       1fr "karma"      1fr "calculator" 1fr;
+  }
+  .cards > div {
+    padding: 15px;
+    max-width: 260px;
+  }
+}
